@@ -1,5 +1,3 @@
-# Java_TabLayout
-
 ![image](https://user-images.githubusercontent.com/60017090/137490727-b4ac0596-f52f-44b5-938e-1c4dda5c2efd.png)
 
 
@@ -43,7 +41,7 @@
  
  
  
- <selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:color="#FF5722" android:state_selected="true"/>
     <item android:color="#CDDC39"/>
-</selector>
+   </selector>
