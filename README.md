@@ -12,13 +12,13 @@
      </style>
 
 
-   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      tools:context=".MainActivity">
 
      <com.google.android.material.tabs.TabLayout
         android:id="@+id/tablayout"
@@ -37,11 +37,11 @@
         android:layout_height="match_parent"
         android:orientation="vertical"></androidx.viewpager.widget.ViewPager>
 
- </LinearLayout>
+     </LinearLayout>
  
  
  
-  <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:color="#FF5722" android:state_selected="true"/>
-    <item android:color="#CDDC39"/>
-   </selector>
+     <selector xmlns:android="http://schemas.android.com/apk/res/android">
+       <item android:color="#FF5722" android:state_selected="true"/>
+       <item android:color="#CDDC39"/>
+    </selector>
