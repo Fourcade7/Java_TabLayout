@@ -40,3 +40,10 @@
         android:orientation="vertical"></androidx.viewpager.widget.ViewPager>
 
  </LinearLayout>
+ 
+ 
+ 
+ <selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="#FF5722" android:state_selected="true"/>
+    <item android:color="#CDDC39"/>
+</selector>
