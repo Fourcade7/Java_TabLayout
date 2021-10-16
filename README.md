@@ -4,7 +4,7 @@
       
       
       
-      
+//res/values/themes      
        
      <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
             <item name="android:textSize">10sp</item>
@@ -40,6 +40,7 @@
      </LinearLayout>
  
  
+ //res/color/tabcolor
  
      <selector xmlns:android="http://schemas.android.com/apk/res/android">
        <item android:color="#FF5722" android:state_selected="true"/>
