@@ -12,15 +12,7 @@
      </style>
 
 
-     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:app="http://schemas.android.com/apk/res-auto"
-      xmlns:tools="http://schemas.android.com/tools"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      android:orientation="vertical"
-      tools:context=".MainActivity">
-
-     <com.google.android.material.tabs.TabLayout
+      <com.google.android.material.tabs.TabLayout
         android:id="@+id/tablayout"
         app:tabTextColor="#FF5722"
         app:tabIndicatorColor="#CDDC39"
@@ -30,14 +22,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/purple_500"
+        
+        app:tabIndicatorFullWidth="false"
+        app:tabPaddingStart="25dp"
+        app:tabPaddingEnd="25dp"
         ></com.google.android.material.tabs.TabLayout>
-    <androidx.viewpager.widget.ViewPager
-        android:id="@+id/viewpager"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"></androidx.viewpager.widget.ViewPager>
-
-     </LinearLayout>
+        
+<!--    app:tabIndicator="@drawable/tab_indicator"-->
  
  
  //res/color/tabcolor
