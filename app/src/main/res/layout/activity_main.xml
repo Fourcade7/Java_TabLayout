@@ -12,7 +12,7 @@
         app:tabTextColor="#FF5722"
         app:tabIndicatorColor="#CDDC39"
         app:tabSelectedTextColor="@color/white"
-        app:tabTextAppearance="@style/MineCustomTabText"
+        app:tabTextAppearance="@style/MyCustomTextAppearance"
         app:tabIconTint="@color/tabcolor"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
