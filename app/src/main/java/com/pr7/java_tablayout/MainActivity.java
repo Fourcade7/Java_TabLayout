@@ -21,6 +21,11 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Home").setIcon(R.drawable.ic_baseline_home_24));
         tabLayout.addTab(tabLayout.newTab().setText("Product").setIcon(R.drawable.ic_baseline_backup_24));
         tabLayout.addTab(tabLayout.newTab().setText("Order").setIcon(R.drawable.ic_baseline_favorite_border_24));
+        tabLayout.addTab(tabLayout.newTab().setText("Order").setIcon(R.drawable.ic_baseline_favorite_border_24));
+        tabLayout.addTab(tabLayout.newTab().setText("Order").setIcon(R.drawable.ic_baseline_favorite_border_24));
+        tabLayout.addTab(tabLayout.newTab().setText("Order").setIcon(R.drawable.ic_baseline_favorite_border_24));
+        tabLayout.addTab(tabLayout.newTab().setText("Order").setIcon(R.drawable.ic_baseline_favorite_border_24));
+
 
         myPager=new MyPager(getSupportFragmentManager(),this,tabLayout.getTabCount());
 

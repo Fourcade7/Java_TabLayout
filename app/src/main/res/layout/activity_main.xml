@@ -20,6 +20,7 @@
         app:tabIndicatorFullWidth="false"
         app:tabPaddingStart="25dp"
         app:tabPaddingEnd="25dp"
+        app:tabMode="scrollable"
         ></com.google.android.material.tabs.TabLayout>
 <!--    app:tabIndicator="@drawable/tab_indicator"-->
     <androidx.viewpager.widget.ViewPager

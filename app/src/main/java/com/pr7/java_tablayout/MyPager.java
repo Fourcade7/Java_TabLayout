@@ -32,6 +32,19 @@ public class MyPager extends FragmentPagerAdapter {
             case 2:
                 BlankFragment3 blankFragment3 = new BlankFragment3();
                 return blankFragment3;
+            case 3:
+                BlankFragment4 blankFragment4 = new BlankFragment4();
+                return blankFragment4;
+            case 4:
+                BlankFragment5 blankFragment5 = new BlankFragment5();
+                return blankFragment5;
+            case 5:
+                BlankFragment6 blankFragment6 = new BlankFragment6();
+                return blankFragment6;
+            case 6:
+                BlankFragment7 blankFragment7 = new BlankFragment7();
+                return blankFragment7;
+
         }
         return null;
     }
