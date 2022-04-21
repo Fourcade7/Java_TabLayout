@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/purple_500"
-        
+        app:tabInlineLabel="true" // icon with text horizontally
         app:tabIndicatorFullWidth="false"
         app:tabPaddingStart="25dp"
         app:tabPaddingEnd="25dp"
